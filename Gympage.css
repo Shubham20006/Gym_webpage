@@ -1,0 +1,110 @@
+body {
+
+    margin: 0;
+}
+
+.header {
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: top;
+    flex-wrap: wrap;
+    height: 50vh;
+    width: 100vw;
+    background-image: url("805233.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.A1 {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 10%;
+    justify-content: space-around;
+    align-content: center;
+    width: 200px;
+    height: 120px;
+    background-color: lightblue;
+    border-radius: 40%;
+}
+
+.A2 {
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 2vh;
+    width: 50vw;
+    height: 100px;
+    color: rgb(228, 40, 40);
+    width: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+
+.A3 button {
+    display: flex;
+    position: relative;
+    top: 20%;
+    right: 30px;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-radius: 19%;
+    color: black;
+    font-size: 15px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.images1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.images1 img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 33vw;
+    height: 50vh;
+    border-radius: 30px;
+    padding: 1px;
+}
+
+.images1 p {
+    font-size: 20px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 30vh;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.footer b {
+    color: red;
+}
